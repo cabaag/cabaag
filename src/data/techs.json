@@ -1,0 +1,72 @@
+[
+	{
+		"name": "Angular",
+		"icon": "angular.svg",
+		"website": "https://angular.io"
+	},
+	{
+		"name": "React",
+		"icon": "react.svg",
+		"website": "https://reactjs.org/"
+	},
+	{
+		"name": "React Native",
+		"icon": "react.svg",
+		"website": "https://facebook.github.io/react-native/"
+	},
+	{
+		"name": "Ionic",
+		"icon": "ionic.svg",
+		"website": "https://ionicframework.com/"
+	},
+	{
+		"name": "Laravel",
+		"icon": "laravel.svg",
+		"website": "https://laravel.com/"
+	},
+	{
+		"name": "ExpressJS",
+		"icon": "express.png",
+		"website": "https://expressjs.com"
+	},
+	{
+		"name": "NodeJS",
+		"icon": "nodejs.svg",
+		"website": "https://nodejs.org"
+	},
+	{
+		"name": "PassportJS",
+		"icon": "passport.svg",
+		"website": "http://www.passportjs.org"
+	},
+	{
+		"name": "PayPal",
+		"icon": "paypal.svg",
+		"website": "https://www.paypal.com/"
+	},
+	{
+		"name": "Google Maps",
+		"icon": "googleMaps.svg",
+		"website": "https://developers.google.com/maps"
+	},
+	{
+		"name": "Firebase",
+		"icon": "firebase.svg",
+		"website": "https://firebase.google.com/"
+	},
+	{
+		"name": "Android",
+		"icon": "android.svg",
+		"website": "https://www.android.com/"
+	},
+	{
+		"name": "iOS",
+		"icon": "apple.svg",
+		"website": "https://developer.apple.com/"
+	},
+	{
+		"name": "Prestashop",
+		"icon": "prestashop.svg",
+		"website": "https://www.prestashop.com/"
+	}
+]

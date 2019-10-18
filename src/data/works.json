@@ -1,0 +1,45 @@
+[
+	{
+		"id": 1,
+		"company": "Freelance",
+		"date": {
+			"start": "03/13",
+			"end": "Actual"
+		},
+		"description": "I’ve been working as an independent programmer for multiples companies in Mexico City and Guadalajara, as well as some local. I’ve focused mainly on Frontend, but I even have been in projects in which I was Fullstack",
+		"techs": ["Angular", "React", "React Native", "Ionic", "Laravel"]
+	},
+	{
+		"id": 2,
+		"company": "Gruvel",
+		"date": {
+			"start": "04/16",
+			"end": "09/18"
+		},
+		"description": "I developed the complete platform working as Full stacK. First, the back was created with an API to start obtaining the data, once this was done, the UI was created to print them. The website also accepts payments with PayPal, Conekta and Openpay. The login is with email, Facebook or Google.",
+		"techs": ["Angular", "ExpressJS", "NodeJS", "PassportJS", "PayPal"],
+		"position": "Full stack developer"
+	},
+	{
+		"id": 3,
+		"company": "Radar Biker",
+		"date": {
+			"start": "04/17",
+			"end": "08/18"
+		},
+		"description": "It is a small startup that has an app that acts both as a social network, as a guide for motorcyclists in the country. With Ionic, I created the app, to speed up the creation. Implemented the Google Maps API to show the fastest route as well as alternative routes.",
+		"techs": ["Angular", "Ionic", "Google Maps", "Firebase", "Android", "iOS"],
+		"position": "Hybrid app developer"
+	},
+	{
+		"id": 4,
+		"company": "NoMADA INDUSTRIES",
+		"date": {
+			"start": "02/19",
+			"end": "09/19"
+		},
+		"description": "I worked as a Fullstack developer, I was in charge of developing all the business websites, as well as its online store. I also worked on the part of IoT in connecting embedded cards to web platforms. Created a platform to visualize data that were collected from automated industrial equipment.",
+		"techs": ["React Native", "Angular", "Laravel", "Prestashop"],
+		"position": "Full stack developer"
+	}
+]
