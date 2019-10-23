@@ -2,15 +2,19 @@
 	"name": "cabaag",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://cabaag.github.io/website",
 	"dependencies": {
 		"bootstrap": "^4.3.1",
 		"gh-pages": "^2.1.1",
+		"lottie-web": "^5.5.9",
 		"node-sass": "^4.12.0",
 		"react": "^16.10.2",
 		"react-bootstrap": "^1.0.0-beta.14",
 		"react-dom": "^16.10.2",
+		"react-lottie": "^1.2.3",
 		"react-scripts": "3.2.0",
 		"react-scroll": "^1.7.14",
+		"react-scroll-parallax": "^2.2.0",
 		"typescript": "3.6.4"
 	},
 	"scripts": {
@@ -63,7 +67,7 @@
 	"lint-staged": {
 		"*.{js,jsx}": [
 			"pretty-quick --staged",
-			"eslint src --fix",
+			"eslint src --fix --ignore-pattern '!.eslintrc.js'",
 			"git add"
 		]
 	}

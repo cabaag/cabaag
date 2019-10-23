@@ -1,9 +1,19 @@
 import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
+import Lottie from 'react-lottie';
 import { Element } from 'react-scroll';
+import * as animationData from '../../assets/open-book.json';
 import skills from '../../data/skills.json';
 import './Skills.scss';
 
+const defaultOptions = {
+	loop: true,
+	autoplay: true,
+	animationData: animationData.default,
+	rendererSettings: {
+		preserveAspectRatio: 'xMidYMid slice',
+	},
+};
 const Skills = () => (
 	<Element name="skills">
 		<section>
@@ -23,6 +33,9 @@ const Skills = () => (
 								</div>
 							</div>
 						))}
+					</div>
+					<div className="col-sm-12 col-md-6">
+						<Lottie options={defaultOptions} width="100%" />
 					</div>
 				</div>
 			</div>
