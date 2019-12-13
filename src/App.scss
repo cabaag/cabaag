@@ -4,6 +4,13 @@ section {
 	padding-top: 70px;
 	position: relative;
 }
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
 
 // .btn-primary {
 // 	background-color: $primary-color;

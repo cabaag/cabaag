@@ -1,6 +1,6 @@
-/* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
+import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 import Lottie from 'react-lottie';
 import { Element } from 'react-scroll';
 import * as animationData from '../../assets/inbox-notification.json';
@@ -15,49 +15,50 @@ const defaultOptions = {
 	},
 };
 
-export default class Contact extends Component {
-	render() {
-		return (
-			<Element name="contact">
-				<section>
-					<div className="Contact mb-5">
-						<div className="row">
-							<div className="col-sm-12 col-md-6">
-								<h1> CONTACT ME </h1>
-								<h4> LET&apos;S MEET US </h4>
-								<div className="row">If you have a project</div>
-							</div>
-						</div>
-						<div className="row">
-							<div className="col-sm-12 col-md-6">
-								<Lottie options={defaultOptions} width="50%" height="auto" />
-							</div>
-							<div className="col-sm-12 col-md-6">
-								<Form>
-									<Form.Group controlId="name">
-										<Form.Label> Name</Form.Label>
-										<Form.Control type="text" placeholder="Enter name " />
-									</Form.Group>
-
-									<Form.Group controlId="email">
-										<Form.Label>Email address</Form.Label>
-										<Form.Control type="email" placeholder="Enter email" />
-									</Form.Group>
-
-									<Form.Group controlId="message">
-										<Form.Label>Message</Form.Label>
-										<Form.Control placeholder="Tell me your concerns" as="textarea" rows="5" />
-									</Form.Group>
-
-									<Button variant="primary" type="submit">
-										Send
-									</Button>
-								</Form>
-							</div>
+export default function Contact() {
+	const { t } = useTranslation();
+	return (
+		<Element name="contact">
+			<section>
+				<div className="Contact mb-5">
+					<div className="row">
+						<div className="col-sm-12 col-md-6">
+							<h1 className="uppercase"> {t('contact')} </h1>
+							<h6> LET&apos;S GET RIDICULOUS </h6>
 						</div>
 					</div>
-				</section>
-			</Element>
-		);
-	}
+					<div className="row">
+						<div className="col-sm-12 col-md-6 row justify-content-center align-content-center flex-column">
+							<p>If you have a great project, I&apos;ll make it better</p>
+							<Lottie height="auto" options={defaultOptions} width="50%" />
+						</div>
+						<div className="col-sm-12 col-md-6">
+							<Form>
+								<Form.Group controlId="name">
+									<Form.Label> {t('name')}</Form.Label>
+									<Form.Control placeholder={t('enter-name')} type="text" />
+								</Form.Group>
+
+								<Form.Group controlId="email">
+									<Form.Label>{t('email')}</Form.Label>
+									<Form.Control placeholder={t('spam')} type="email" />
+								</Form.Group>
+
+								<Form.Group controlId="message">
+									<Form.Label>{t('message')}</Form.Label>
+									<Form.Control as="textarea" placeholder={t('concerns')} rows="5" />
+								</Form.Group>
+
+								<div className="row justify-content-end">
+									<Button type="submit" variant="primary">
+										{t('send')}
+									</Button>
+								</div>
+							</Form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</Element>
+	);
 }

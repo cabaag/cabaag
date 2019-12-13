@@ -1,29 +1,43 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import Lottie from 'react-lottie';
 import { Element } from 'react-scroll';
+import * as animationData from '../../assets/html.json';
 import './About.scss';
 
-const About = () => (
-	<Element name="about">
-		<section className="About">
-			<div className="front row">
-				<div className="col" />
-				<div className="col">
-					<h1> ABOUT ME </h1>
-					<h4> MEET ME </h4>
-					<p>
-						I&apos;ve been developing for the Internet for 6 years. I&apos;ve designed, coded, managed and
-						developed in many platforms, for many companies, with many programs and programing languages. I’m
-						proficient with: HTML, CSS, PHP, Javascript, Ajax, Express, and Node.js, GIT among other techs.
-					</p>
-					<p>
-						I can build a custom site from a framework and create complex views; I’ve also built shopping carts
-						with Prestashop. I&apos;ve been catching up on Mobile Software Developing and Facebook Apps and look
-						forward to developing more projects with these technologies. I love the MEAN combo.
-					</p>
-				</div>
-			</div>
-		</section>
-	</Element>
-);
+const defaultOptions = {
+	loop: true,
+	autoplay: true,
+	animationData: animationData.default,
+	rendererSettings: {
+		preserveAspectRatio: 'xMidYMid slice',
+	},
+};
 
-export default About;
+export default function About() {
+	const { t } = useTranslation();
+	return (
+		<Element name="about">
+			<section className="About mb-4">
+				<div className="row">
+					<div className="col-sm-12 offset-md-6 col-md-6 text-right">
+						<h1 className="uppercase"> {t('about')} </h1>
+						<h6> ME, MYSELF &amp; I </h6>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-sm-12 col-md-6 row align-content-center">
+						<Lottie height={200} options={defaultOptions} width="100%" />
+					</div>
+					<div
+						className="col-sm-12 col-md-6"
+						// eslint-disable-next-line react/no-danger
+						dangerouslySetInnerHTML={{
+							__html: t('meet-me-description'),
+						}}
+					/>
+				</div>
+			</section>
+		</Element>
+	);
+}

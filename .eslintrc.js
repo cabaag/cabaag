@@ -21,6 +21,7 @@ module.exports = {
 	rules: {
 		'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
 		'react/prop-types': 0,
+		'react/jsx-sort-props': [1, { ignoreCase: true }],
 		'no-underscore-dangle': 0,
 		'import/imports-first': ['error', 'absolute-first'],
 		'import/newline-after-import': 'error',

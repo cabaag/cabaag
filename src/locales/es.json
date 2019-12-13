@@ -1,0 +1,23 @@
+{
+	"projects": "proyectos",
+	"skills": "habilidades",
+	"about": "acerca",
+	"hello": "hola",
+	"contact": "contacto",
+	"experience": "experiencia",
+	"intro": "Soy Carlos Barranco",
+	"titles": "Front-end engineer, UX designer & enterpreneur",
+	"hire-me": "Contratar",
+	"get-cv": "Obtener CV",
+	"meet-me": "Conoceme",
+	"meet-me-description": "<p>He sido desarrollador para internet durante 6 años. He diseñado, codeado, manejado y desarrollado en múltiples plataformas, para diferentes compañias, con diferentes lenguajes de programación. Tengo conocimiento en HTML, CSS, PHP, Javascript, Ajax, Express, and NodeJS, GIT entre otras tecnologías.</p><p> Puedo construir un sitio personalizado desde un framework y crear vistas complejas; también he creado tiendas online con Prestashop. También tengo experiencia con el desarrollo hibrido y Facebooks Apps.</p>",
+	"lang": "Idioma",
+	"name": "Nombre",
+	"email": "Correo electrónico",
+	"message": "Mensaje",
+	"send": "Enviar",
+	"techs": "Tecnologías",
+	"enter-name": "Ingresa tu nombre",
+	"spam": "Te enviaré spam",
+	"concerns": "Cuentame tus problemas"
+}
