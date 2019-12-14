@@ -16,26 +16,38 @@ works = works.map(work => {
 	return { ...work, techs: t };
 });
 
-export default function Experience() {
-	const { t } = useTranslation();
+export default function Experience({ odd }) {
+	const { t, i18n } = useTranslation();
 	return (
 		<Element name="experience">
 			<section className="Experience">
 				<div className="row">
-					<div className="col">
+					<div className={`col-sm-12 col-md-6 ${odd ? ' offset-md-6 text-right ' : ''}`}>
 						<h1 className="uppercase"> {t('experience')} </h1>
-						<h6> WHAT I&apos;VE DONE </h6>
+						<h6> </h6>
+						<a
+							className="undecorate"
+							href="https://open.spotify.com/track/18lR4BzEs7e3qzc0KVkTpU?si=8_og5o2ZQP6ZtGrM_URLEw"
+							rel="noopener noreferrer"
+							target="_blank"
+						>
+							<h6> WHAT I&apos;VE DONE </h6>
+						</a>
 					</div>
 				</div>
 				<div className="row justify-content-center">
 					<div className="col-sm-12 col-md-10 col-lg-8">
 						{works.map(work => (
 							<Card border="primary" className="text-center my-4" key={work.id}>
-								<Card.Header>{work.company}</Card.Header>
+								<Card.Header>
+									<Card.Title className="m-0">{work.company}</Card.Title>
+								</Card.Header>
 								<Card.Body>
-									{work.position ? <Card.Title> {work.position} </Card.Title> : null}
-									<Card.Text>{work.description}</Card.Text>
-									<Card.Title> {t('techs')} </Card.Title>
+									<Card.Text>
+										<b>{work.position}</b>
+										<p>{work.description[i18n.language]}</p>
+										<b> {t('techs')} </b>
+									</Card.Text>
 									<div className="row justify-content-center">
 										{work.techs.map(tech =>
 											tech ? (

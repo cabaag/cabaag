@@ -4,9 +4,12 @@
 		"company": "Freelance",
 		"date": {
 			"start": "03/13",
-			"end": "Actual"
+			"end": "09/19"
 		},
-		"description": "I’ve been working as an independent programmer for multiples companies in Mexico City and Guadalajara, as well as some local. I’ve focused mainly on Frontend, but I even have been in projects in which I was Fullstack",
+		"description": {
+			"en": "I’ve been working as an independent programmer for multiples companies in Mexico City and Guadalajara, as well as some local. I’ve focused mainly on Frontend, but I even have been in projects in which I was Fullstack",
+			"es": "He estado trabajando como programador independiente para múltiples compañías en la Ciudad de México y Guadalajara, así como algunas locales. Me he centrado principalmente en Frontend, pero incluso he estado en proyectos en los que estaba Fullstack"
+		},
 		"techs": ["Angular", "React", "React Native", "Ionic", "Laravel"]
 	},
 	{
@@ -16,7 +19,10 @@
 			"start": "04/16",
 			"end": "09/18"
 		},
-		"description": "I developed the complete platform working as Full stack. First, the back was created with an API to start obtaining the data, once this was done, the UI was created to print them. The website also accepts payments with PayPal, Conekta and Openpay. The login is with email, Facebook or Google.",
+		"description": {
+			"en": "I developed the complete platform working as Full stack. First the back, an API was created to start obtaining the data, once this was done, the UI was created to print them. The website also accepts payments with PayPal, Conekta and Openpay. The login is with email, Facebook or Google.",
+			"es": "Desarrollé la plataforma completa trabajando como Full stack. Primero el back, se creó una API para comenzar a obtener los datos, una vez hecho esto, se creó la UI para imprimirlos. El sitio web también acepta pagos con PayPal, Conekta y Openpay. El inicio de sesión es con correo electrónico, Facebook o Google."
+		},
 		"techs": ["Angular", "ExpressJS", "NodeJS", "PassportJS", "PayPal"],
 		"position": "Full stack developer"
 	},
@@ -27,7 +33,10 @@
 			"start": "04/17",
 			"end": "08/18"
 		},
-		"description": "It is a small startup that has an app that acts both as a social network, as a guide for motorcyclists in the country. With Ionic, I created the app, to speed up the creation. Implemented the Google Maps API to show the fastest route as well as alternative routes.",
+		"description": {
+			"en": "It is a small startup that has an app that acts both as a social network, as a guide for motorcyclists in the country. With Ionic, I created the app, to speed up the creation. Implemented the Google Maps API to show the fastest route as well as alternative routes.",
+			"es": "Es una pequeña startup que tiene una aplicación que actúa tanto como una red social, como una guía para motociclistas en el país. Con Ionic, creé la aplicación para acelerar la creación. Implementé la API de Google Maps para mostrar la ruta más rápida y las rutas alternativas."
+		},
 		"techs": ["Angular", "Ionic", "Google Maps", "Firebase", "Android", "iOS"],
 		"position": "Hybrid app developer"
 	},
@@ -38,8 +47,25 @@
 			"start": "02/19",
 			"end": "09/19"
 		},
-		"description": "I worked as a Fullstack developer, I was in charge of developing all the business websites, as well as its online store. I also worked on the part of IoT in connecting embedded cards to web platforms. Created a platform to visualize data that were collected from automated industrial equipment.",
+		"description": {
+			"en": "I worked as a Fullstack developer, I was in charge of developing all the business websites, as well as its online store. I also worked on the part of IoT in connecting embedded cards to web platforms. Created a platform to visualize data that were collected from automated industrial equipment.",
+			"es": "Trabajé como desarrollador Fullstack, estaba a cargo del desarrollo de todos los sitios web comerciales, así como de su tienda en línea. También trabajé por parte de IoT para conectar tarjetas integradas a plataformas web. Creó una plataforma para visualizar datos que se recopilaron de equipos industriales automatizados."
+		},
 		"techs": ["React Native", "Angular", "Laravel", "Prestashop"],
 		"position": "Full stack developer"
+	},
+	{
+		"id": 5,
+		"company": "Axity",
+		"date": {
+			"start": "10/19",
+			"end": "Actual"
+		},
+		"description": {
+			"en": "Work as Front-end engineeer, design and build apps, deploy and CI. I build unique components for specifics solutions that can be reuse for others systems.",
+			"es": "Trabajé como ingeniero front-end, diseñe y cree aplicaciones, implemente y CI. Construyo componentes únicos para soluciones específicas que pueden reutilizarse para otros sistemas."
+		},
+		"techs": ["React", "Material UI", "Express"],
+		"position": "Front-end developer"
 	}
 ]

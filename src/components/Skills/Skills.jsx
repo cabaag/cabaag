@@ -1,31 +1,28 @@
 import React from 'react';
-import { ProgressBar, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import Lottie from 'react-lottie';
-import { Element } from 'react-scroll';
+import { OverlayTrigger, ProgressBar, Tooltip } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
-import * as animationData from '../../assets/open-book.json';
+import { Element } from 'react-scroll';
+import learning from '../../assets/learning.png';
 import skills from '../../data/skills.json';
 import './Skills.scss';
 
-const defaultOptions = {
-	loop: true,
-	autoplay: true,
-	animationData: animationData.default,
-	rendererSettings: {
-		preserveAspectRatio: 'xMidYMid slice',
-	},
-};
-
-export default function Skills() {
+export default function Skills({ odd }) {
 	const { t } = useTranslation();
 	return (
 		<Element name="skills">
 			<section>
 				<div className="Skills">
 					<div className="row mb-4">
-						<div className="col-sm-12 col-md-6 offset-md-6 text-right">
+						<div className={`col-sm-12 col-md-6 ${odd ? ' offset-md-6 text-right ' : ''}`}>
 							<h1 className="uppercase"> {t('skills')} </h1>
-							<h6> ...AND STILL LEARNING </h6>
+							<a
+								className="undecorate"
+								href="https://open.spotify.com/track/5W3cjX2J3tjhG8zb6u0qHn?si=I02_vds9RruCKWcFdHdx-A"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<h6> HARDER BETTER FASTER STRONGER </h6>
+							</a>
 						</div>
 					</div>
 					<div className="row">
@@ -56,7 +53,9 @@ export default function Skills() {
 							))}
 						</div>
 						<div className="col-sm-12 col-md-5 row align-content-center">
-							<Lottie height={200} options={defaultOptions} width="100%" />
+							<div className="row justify-content-center align-items-center">
+								<img alt="learnign" src={learning} width="80%" />
+							</div>
 						</div>
 					</div>
 				</div>

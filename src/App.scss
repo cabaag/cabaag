@@ -12,6 +12,11 @@ section {
 	text-transform: capitalize;
 }
 
+a.undecorate {
+	color: inherit;
+	text-decoration: none;
+}
+
 // .btn-primary {
 // 	background-color: $primary-color;
 // 	border-color: $primary-color;

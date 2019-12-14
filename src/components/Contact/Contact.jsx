@@ -15,16 +15,23 @@ const defaultOptions = {
 	},
 };
 
-export default function Contact() {
+export default function Contact({ odd }) {
 	const { t } = useTranslation();
 	return (
 		<Element name="contact">
 			<section>
 				<div className="Contact mb-5">
 					<div className="row">
-						<div className="col-sm-12 col-md-6">
+						<div className={`col-sm-12 col-md-6 ${odd ? ' offset-md-6 text-right ' : ''}`}>
 							<h1 className="uppercase"> {t('contact')} </h1>
-							<h6> LET&apos;S GET RIDICULOUS </h6>
+							<a
+								className="undecorate"
+								href="https://open.spotify.com/track/0S5otf3yhH2NIozxJPJTeV?si=82k3tl8CSaKTtqsZZdRCNw"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<h6> LET&apos;S GET RIDICULOUS </h6>
+							</a>
 						</div>
 					</div>
 					<div className="row">

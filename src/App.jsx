@@ -8,6 +8,7 @@ import Experience from './components/Experience/Experience';
 import Footer from './components/Footer';
 import Main from './components/Main/Main';
 import Nav from './components/Nav';
+import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import i18n from './i18n';
 
@@ -20,10 +21,11 @@ function App() {
 				</header>
 				<main className="container">
 					<Main />
-					<About />
+					<About odd />
 					<Experience />
-					<Skills />
-					<Contact />
+					<Skills odd />
+					<Projects />
+					<Contact odd />
 				</main>
 				<Footer />
 			</div>

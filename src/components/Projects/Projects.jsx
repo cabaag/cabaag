@@ -1,42 +1,48 @@
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Button, Card, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
-import Lottie from 'react-lottie';
 import { Element } from 'react-scroll';
-import * as animationData from '../../assets/open-book.json';
 import projects from '../../data/projects.json';
 
-const defaultOptions = {
-	loop: true,
-	autoplay: true,
-	animationData: animationData.default,
-	rendererSettings: {
-		preserveAspectRatio: 'xMidYMid slice',
-	},
-};
-
-export default function Projects() {
+export default function Projects({ odd }) {
 	const { t } = useTranslation();
 	return (
 		<Element name="projects">
 			<section>
 				<div className="Projects">
 					<div className="row mb-4">
-						<div className="col-sm-12 col-md-6 offset-md-6 text-right">
+						<div className={`col-sm-12 col-md-6 ${odd ? ' offset-md-6 text-right ' : ''}`}>
 							<h1 className="uppercase"> {t('projects')} </h1>
-							<h6> ...AND STILL LEARNING </h6>
+							<a
+								className="undecorate"
+								href="https://open.spotify.com/track/1jDJFeK9x3OZboIAHsY9k2?si=WGED9GVGRdyJMLA74yfuTQ"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<h6> I&apos;M STILL STANDING </h6>{' '}
+							</a>
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-sm-12 col-md-7">
-							{projects.map(project => (
-								<div className="row mb-3" key={project.name}>
-									<div className="col-12" />
-								</div>
-							))}
-						</div>
-						<div className="col-sm-12 col-md-5 row align-content-center">
-							<Lottie height={200} options={defaultOptions} width="100%" />
-						</div>
+						{projects.map(project => (
+							<div className="col-sm-4 mb-3" key={project.name}>
+								<Card border="primary">
+									<Card.Header>
+										<Row className="justify-content-between align-items-center" noGutters>
+											<Card.Title style={{ margin: 0 }}>{project.name}</Card.Title>
+											<Button className="mr-2" href={project.web} target="_blank" variant="outline-dark">
+												<FontAwesomeIcon icon={faGlobe} />
+											</Button>
+										</Row>
+									</Card.Header>
+									<Card.Body>
+										<Card.Text>{project.description}</Card.Text>
+									</Card.Body>
+								</Card>
+							</div>
+						))}
 					</div>
 				</div>
 			</section>
