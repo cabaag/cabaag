@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8f84c9a605ff2f3889f036e6dae8522",
+    "revision": "7574118a64700ecaf4a460e21b4042c3",
     "url": "/cabaag/index.html"
   },
   {
-    "revision": "8ff81470582f9598cbd8",
+    "revision": "25aec1db45cae122cab5",
     "url": "/cabaag/static/css/2.83ace7dd.chunk.css"
   },
   {
-    "revision": "c3befe28ed73e018dcac",
+    "revision": "f5df901b1a9af480332f",
     "url": "/cabaag/static/css/main.fa11e6f4.chunk.css"
   },
   {
-    "revision": "8ff81470582f9598cbd8",
-    "url": "/cabaag/static/js/2.284c7e47.chunk.js"
+    "revision": "25aec1db45cae122cab5",
+    "url": "/cabaag/static/js/2.eeb73a6d.chunk.js"
   },
   {
-    "revision": "c3befe28ed73e018dcac",
-    "url": "/cabaag/static/js/main.efbc2444.chunk.js"
+    "revision": "f5df901b1a9af480332f",
+    "url": "/cabaag/static/js/main.c7aa40c5.chunk.js"
   },
   {
     "revision": "fda05d8fb4dec64ad77b",
     "url": "/cabaag/static/js/runtime-main.1ecebb36.js"
   },
   {
-    "revision": "4fdb1247ed69fc16adc7cbc321147ee5",
-    "url": "/cabaag/static/media/CV_ingles.4fdb1247.pdf"
+    "revision": "469c6e7cbe3cbe940f41fac0e67ccad5",
+    "url": "/cabaag/static/media/CV_ingles.469c6e7c.pdf"
   },
   {
     "revision": "f3a08dafa70aff9f35deb4a698643538",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e2d90de53a078968237f4b4b7b6081aa",
     "url": "/cabaag/static/media/learning.e2d90de5.png"
+  },
+  {
+    "revision": "cb2f65a2181811ba82d3db0ed0880d1c",
+    "url": "/cabaag/static/media/material-ui.cb2f65a2.svg"
   },
   {
     "revision": "0ce2bfac64ad5a4366dab85d274b71e5",

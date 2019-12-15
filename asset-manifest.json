@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/cabaag/static/css/main.fa11e6f4.chunk.css",
-    "main.js": "/cabaag/static/js/main.efbc2444.chunk.js",
-    "main.js.map": "/cabaag/static/js/main.efbc2444.chunk.js.map",
+    "main.js": "/cabaag/static/js/main.c7aa40c5.chunk.js",
+    "main.js.map": "/cabaag/static/js/main.c7aa40c5.chunk.js.map",
     "runtime-main.js": "/cabaag/static/js/runtime-main.1ecebb36.js",
     "runtime-main.js.map": "/cabaag/static/js/runtime-main.1ecebb36.js.map",
     "static/css/2.83ace7dd.chunk.css": "/cabaag/static/css/2.83ace7dd.chunk.css",
-    "static/js/2.284c7e47.chunk.js": "/cabaag/static/js/2.284c7e47.chunk.js",
-    "static/js/2.284c7e47.chunk.js.map": "/cabaag/static/js/2.284c7e47.chunk.js.map",
+    "static/js/2.eeb73a6d.chunk.js": "/cabaag/static/js/2.eeb73a6d.chunk.js",
+    "static/js/2.eeb73a6d.chunk.js.map": "/cabaag/static/js/2.eeb73a6d.chunk.js.map",
     "index.html": "/cabaag/index.html",
-    "precache-manifest.02403704148428e7deb3e64896d9823e.js": "/cabaag/precache-manifest.02403704148428e7deb3e64896d9823e.js",
+    "precache-manifest.e3849af494a9ee982cff222981dde6cf.js": "/cabaag/precache-manifest.e3849af494a9ee982cff222981dde6cf.js",
     "service-worker.js": "/cabaag/service-worker.js",
     "static/css/2.83ace7dd.chunk.css.map": "/cabaag/static/css/2.83ace7dd.chunk.css.map",
     "static/css/main.fa11e6f4.chunk.css.map": "/cabaag/static/css/main.fa11e6f4.chunk.css.map",
-    "static/media/CV_ingles.pdf": "/cabaag/static/media/CV_ingles.4fdb1247.pdf",
+    "static/media/CV_ingles.pdf": "/cabaag/static/media/CV_ingles.469c6e7c.pdf",
     "static/media/about.png": "/cabaag/static/media/about.f3a08daf.png",
     "static/media/android.svg": "/cabaag/static/media/android.14ed07e6.svg",
     "static/media/angular.svg": "/cabaag/static/media/angular.d5566a07.svg",
@@ -27,6 +27,7 @@
     "static/media/jquery.svg": "/cabaag/static/media/jquery.3bc4291e.svg",
     "static/media/laravel.svg": "/cabaag/static/media/laravel.21203d1a.svg",
     "static/media/learning.png": "/cabaag/static/media/learning.e2d90de5.png",
+    "static/media/material-ui.svg": "/cabaag/static/media/material-ui.cb2f65a2.svg",
     "static/media/mongodb.svg": "/cabaag/static/media/mongodb.0ce2bfac.svg",
     "static/media/nodejs.svg": "/cabaag/static/media/nodejs.b337a2fb.svg",
     "static/media/passport.svg": "/cabaag/static/media/passport.550b0103.svg",
@@ -45,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.1ecebb36.js",
     "static/css/2.83ace7dd.chunk.css",
-    "static/js/2.284c7e47.chunk.js",
+    "static/js/2.eeb73a6d.chunk.js",
     "static/css/main.fa11e6f4.chunk.css",
-    "static/js/main.efbc2444.chunk.js"
+    "static/js/main.c7aa40c5.chunk.js"
   ]
 }
