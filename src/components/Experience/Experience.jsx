@@ -56,16 +56,25 @@ export default function Experience({ odd }) {
 													href={tech.website}
 													key={tech.name}
 													rel="noopener noreferrer"
+													style={{
+														textDecoration: 'none',
+														fontWeight: 'bold',
+														fontSize: 28,
+													}}
 													target="_blank"
 												>
-													<img alt={tech.name} src={techsImg(`./${tech.icon}`)} width={30} />
+													{tech.icon ? (
+														<img alt={tech.name} src={techsImg(`./${tech.icon}`)} width={30} />
+													) : (
+														<span>{tech.name[0]}</span>
+													)}
 												</a>
 											) : null,
 										)}
 									</div>
 								</Card.Body>
 								<Card.Footer>
-									{work.date.start} -{work.date.end}
+									{work.date.start} - {work.date.end}
 								</Card.Footer>
 							</Card>
 						))}

@@ -68,5 +68,20 @@
 		"name": "Prestashop",
 		"icon": "prestashop.svg",
 		"website": "https://www.prestashop.com/"
+	},
+	{
+		"name": "Axios",
+		"icon": null,
+		"website": "https://github.com/axios/axios"
+	},
+	{
+		"name": "Redux",
+		"icon": "redux.svg",
+		"website": "https://redux.js.org/"
+	},
+	{
+		"name": "Material UI",
+		"icon": "material-ui.svg",
+		"website": "https://material-ui.com/"
 	}
 ]

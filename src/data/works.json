@@ -30,8 +30,8 @@
 		"id": 3,
 		"company": "Radar Biker",
 		"date": {
-			"start": "04/17",
-			"end": "08/18"
+			"start": "03/17",
+			"end": "02/19"
 		},
 		"description": {
 			"en": "It is a small startup that has an app that acts both as a social network, as a guide for motorcyclists in the country. With Ionic, I created the app, to speed up the creation. Implemented the Google Maps API to show the fastest route as well as alternative routes.",
@@ -65,7 +65,7 @@
 			"en": "Work as Front-end engineeer, design and build apps, deploy and CI. I build unique components for specifics solutions that can be reuse for others systems.",
 			"es": "Trabajé como ingeniero front-end, diseñe y cree aplicaciones, implemente y CI. Construyo componentes únicos para soluciones específicas que pueden reutilizarse para otros sistemas."
 		},
-		"techs": ["React", "Material UI", "Express"],
+		"techs": ["React", "Material UI", "ExpressJS", "Axios", "Redux", "NodeJS"],
 		"position": "Front-end developer"
 	}
 ]
