@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/cabaag/static/css/main.fa11e6f4.chunk.css",
-    "main.js": "/cabaag/static/js/main.c7aa40c5.chunk.js",
-    "main.js.map": "/cabaag/static/js/main.c7aa40c5.chunk.js.map",
-    "runtime-main.js": "/cabaag/static/js/runtime-main.1ecebb36.js",
-    "runtime-main.js.map": "/cabaag/static/js/runtime-main.1ecebb36.js.map",
+    "main.css": "/cabaag/static/css/main.3667e6dd.chunk.css",
+    "main.js": "/cabaag/static/js/main.d43a7f1c.chunk.js",
+    "main.js.map": "/cabaag/static/js/main.d43a7f1c.chunk.js.map",
+    "runtime-main.js": "/cabaag/static/js/runtime-main.c0e4d6c4.js",
+    "runtime-main.js.map": "/cabaag/static/js/runtime-main.c0e4d6c4.js.map",
     "static/css/2.83ace7dd.chunk.css": "/cabaag/static/css/2.83ace7dd.chunk.css",
-    "static/js/2.eeb73a6d.chunk.js": "/cabaag/static/js/2.eeb73a6d.chunk.js",
-    "static/js/2.eeb73a6d.chunk.js.map": "/cabaag/static/js/2.eeb73a6d.chunk.js.map",
+    "static/js/2.60e402fb.chunk.js": "/cabaag/static/js/2.60e402fb.chunk.js",
+    "static/js/2.60e402fb.chunk.js.map": "/cabaag/static/js/2.60e402fb.chunk.js.map",
     "index.html": "/cabaag/index.html",
-    "precache-manifest.e3849af494a9ee982cff222981dde6cf.js": "/cabaag/precache-manifest.e3849af494a9ee982cff222981dde6cf.js",
+    "precache-manifest.65c043ac986b65145122aa64669cd89c.js": "/cabaag/precache-manifest.65c043ac986b65145122aa64669cd89c.js",
     "service-worker.js": "/cabaag/service-worker.js",
     "static/css/2.83ace7dd.chunk.css.map": "/cabaag/static/css/2.83ace7dd.chunk.css.map",
-    "static/css/main.fa11e6f4.chunk.css.map": "/cabaag/static/css/main.fa11e6f4.chunk.css.map",
-    "static/media/CV_ingles.pdf": "/cabaag/static/media/CV_ingles.469c6e7c.pdf",
+    "static/css/main.3667e6dd.chunk.css.map": "/cabaag/static/css/main.3667e6dd.chunk.css.map",
+    "static/js/2.60e402fb.chunk.js.LICENSE": "/cabaag/static/js/2.60e402fb.chunk.js.LICENSE",
+    "static/media/CV_ingles.pdf": "/cabaag/static/media/CV_ingles.08b73d20.pdf",
     "static/media/about.png": "/cabaag/static/media/about.f3a08daf.png",
     "static/media/android.svg": "/cabaag/static/media/android.14ed07e6.svg",
     "static/media/angular.svg": "/cabaag/static/media/angular.d5566a07.svg",
@@ -44,10 +45,10 @@
     "static/media/webpack.svg": "/cabaag/static/media/webpack.5f5a3b21.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ecebb36.js",
+    "static/js/runtime-main.c0e4d6c4.js",
     "static/css/2.83ace7dd.chunk.css",
-    "static/js/2.eeb73a6d.chunk.js",
-    "static/css/main.fa11e6f4.chunk.css",
-    "static/js/main.c7aa40c5.chunk.js"
+    "static/js/2.60e402fb.chunk.js",
+    "static/css/main.3667e6dd.chunk.css",
+    "static/js/main.d43a7f1c.chunk.js"
   ]
 }

@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7574118a64700ecaf4a460e21b4042c3",
+    "revision": "f694c19373d0a514cfc187cc001ed2ef",
     "url": "/cabaag/index.html"
   },
   {
-    "revision": "25aec1db45cae122cab5",
+    "revision": "949b5e8c5fb95abe784c",
     "url": "/cabaag/static/css/2.83ace7dd.chunk.css"
   },
   {
-    "revision": "f5df901b1a9af480332f",
-    "url": "/cabaag/static/css/main.fa11e6f4.chunk.css"
+    "revision": "a89ead76c8fb63298f34",
+    "url": "/cabaag/static/css/main.3667e6dd.chunk.css"
   },
   {
-    "revision": "25aec1db45cae122cab5",
-    "url": "/cabaag/static/js/2.eeb73a6d.chunk.js"
+    "revision": "949b5e8c5fb95abe784c",
+    "url": "/cabaag/static/js/2.60e402fb.chunk.js"
   },
   {
-    "revision": "f5df901b1a9af480332f",
-    "url": "/cabaag/static/js/main.c7aa40c5.chunk.js"
+    "revision": "c95374b9536ba21a50e3321b7db6c254",
+    "url": "/cabaag/static/js/2.60e402fb.chunk.js.LICENSE"
   },
   {
-    "revision": "fda05d8fb4dec64ad77b",
-    "url": "/cabaag/static/js/runtime-main.1ecebb36.js"
+    "revision": "a89ead76c8fb63298f34",
+    "url": "/cabaag/static/js/main.d43a7f1c.chunk.js"
   },
   {
-    "revision": "469c6e7cbe3cbe940f41fac0e67ccad5",
-    "url": "/cabaag/static/media/CV_ingles.469c6e7c.pdf"
+    "revision": "f8357a7b5a18c5eb230e",
+    "url": "/cabaag/static/js/runtime-main.c0e4d6c4.js"
+  },
+  {
+    "revision": "08b73d20983d92c5e4f8809896d8bbc0",
+    "url": "/cabaag/static/media/CV_ingles.08b73d20.pdf"
   },
   {
     "revision": "f3a08dafa70aff9f35deb4a698643538",
