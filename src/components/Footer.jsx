@@ -1,10 +1,11 @@
 import React from 'react';
-// import * as animationData from '../assets/bulb.json';
 
 const styles = {
 	root: {
 		minHeight: 100,
 		padding: '20px 0',
+		maxWidth: '100%',
+		margin: 0,
 	},
 	bulb: {
 		'& *': {

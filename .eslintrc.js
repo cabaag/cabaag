@@ -27,5 +27,6 @@ module.exports = {
 		'import/newline-after-import': 'error',
 		'no-console': 0,
 		'class-methods-use-this': 0,
+		indent: ['error', 'tab'],
 	},
 };

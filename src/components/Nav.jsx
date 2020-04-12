@@ -4,6 +4,7 @@ import { scroller } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
 
 function goTo(link) {
 	scroller.scrollTo(link, {
@@ -44,10 +45,10 @@ export default function Nav() {
 			<Col>
 				<Row className="justify-content-end">
 					<DropdownButton alignRight className="mr-2" id="dropdown-lang" title={t('lang')}>
-						<Dropdown.Item eventKey="en" onSelect={changeLang}>
+						<Dropdown.Item active={i18next.language === 'en'} eventKey="en" onSelect={changeLang}>
 							English
 						</Dropdown.Item>
-						<Dropdown.Item eventKey="es" onSelect={changeLang}>
+						<Dropdown.Item active={i18next.language === 'es'} eventKey="es" onSelect={changeLang}>
 							Español
 						</Dropdown.Item>
 					</DropdownButton>

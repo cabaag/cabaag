@@ -1,9 +1,11 @@
+import i18next from 'i18next';
 import React from 'react';
 import { Button, ButtonToolbar } from 'react-bootstrap';
-import { useTranslation, Trans } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import Lottie from 'react-lottie';
 import { Element, scroller } from 'react-scroll';
-import cv from '../../assets/CV_ingles.pdf';
+import CVIngles from '../../assets/CV_ingles.pdf';
+import CV from '../../assets/CV.pdf';
 import * as animationData from '../../assets/programming-animation.json';
 import './main.scss';
 
@@ -25,6 +27,7 @@ function goTo(link) {
 
 export default function Main() {
 	const { t } = useTranslation();
+	console.log(i18next.language);
 	return (
 		<Element name="home">
 			<section className="main row align-items-center justify-content-center">
@@ -42,7 +45,7 @@ export default function Main() {
 						<Button className="mr-2 uppercase" onClick={() => goTo('contact')} size="lg" variant="primary">
 							{t('hire-me')}
 						</Button>
-						<a download href={cv}>
+						<a download href={i18next.language === 'es' ? CV : CVIngles}>
 							<Button className="uppercase" size="lg" type="submit" variant="outline-primary">
 								{t('get-cv')}
 							</Button>
