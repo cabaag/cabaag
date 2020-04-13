@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cabaag/static/css/main.3b4aa5d4.chunk.css",
-    "main.js": "/cabaag/static/js/main.be97f6db.chunk.js",
-    "main.js.map": "/cabaag/static/js/main.be97f6db.chunk.js.map",
+    "main.js": "/cabaag/static/js/main.8bf0b7ee.chunk.js",
+    "main.js.map": "/cabaag/static/js/main.8bf0b7ee.chunk.js.map",
     "runtime-main.js": "/cabaag/static/js/runtime-main.31d69ee2.js",
     "runtime-main.js.map": "/cabaag/static/js/runtime-main.31d69ee2.js.map",
     "static/css/2.17e5ed98.chunk.css": "/cabaag/static/css/2.17e5ed98.chunk.css",
     "static/js/2.5541cce9.chunk.js": "/cabaag/static/js/2.5541cce9.chunk.js",
     "static/js/2.5541cce9.chunk.js.map": "/cabaag/static/js/2.5541cce9.chunk.js.map",
     "index.html": "/cabaag/index.html",
-    "precache-manifest.685df90983200a64c238ef6d0dba3f71.js": "/cabaag/precache-manifest.685df90983200a64c238ef6d0dba3f71.js",
+    "precache-manifest.a9788e02d040a686513eab32e8d9b42a.js": "/cabaag/precache-manifest.a9788e02d040a686513eab32e8d9b42a.js",
     "service-worker.js": "/cabaag/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/cabaag/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.3b4aa5d4.chunk.css.map": "/cabaag/static/css/main.3b4aa5d4.chunk.css.map",
@@ -49,6 +49,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.5541cce9.chunk.js",
     "static/css/main.3b4aa5d4.chunk.css",
-    "static/js/main.be97f6db.chunk.js"
+    "static/js/main.8bf0b7ee.chunk.js"
   ]
 }

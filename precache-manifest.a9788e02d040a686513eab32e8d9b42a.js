@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a21d898e0770164c3e24e5738eaebb33",
+    "revision": "c38736511c87e3fbb14c52286ca711f3",
     "url": "/cabaag/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cabaag/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "4542e9dd37b3fd8f9fef",
+    "revision": "9018dc1ef8e35ccc5340",
     "url": "/cabaag/static/css/main.3b4aa5d4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cabaag/static/js/2.5541cce9.chunk.js"
   },
   {
-    "revision": "4542e9dd37b3fd8f9fef",
-    "url": "/cabaag/static/js/main.be97f6db.chunk.js"
+    "revision": "9018dc1ef8e35ccc5340",
+    "url": "/cabaag/static/js/main.8bf0b7ee.chunk.js"
   },
   {
     "revision": "11125e0fb07b27aca7a6",
