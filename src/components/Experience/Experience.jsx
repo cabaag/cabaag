@@ -44,10 +44,10 @@ export default function Experience({ odd }) {
 								</Card.Header>
 								<Card.Body>
 									<Card.Text>
-										<b>{work.position}</b>
-										<p>{work.description[i18n.language]}</p>
-										<b> {t('techs')} </b>
+										<div className="font-weight-bold">{work.position}</div>
+										<div>{work.description[i18n.language]}</div>
 									</Card.Text>
+									<div className="font-weight-bold mb-4"> {t('techs')} </div>
 									<div className="row justify-content-center">
 										{work.techs.map(tech =>
 											tech ? (
