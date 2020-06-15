@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the component 1`] = `
+<div
+  name="home"
+>
+  <section
+    className="main row align-items-center justify-content-center"
+  >
+    <div
+      className="col-sm-12 col-md mb-4"
+    >
+      <h2
+        className="uppercase"
+      >
+        hello
+      </h2>
+      <h1
+        className="uppercase"
+      >
+         
+        intro
+         
+      </h1>
+      <h4
+        className="uppercase"
+      >
+         
+        titles
+         
+      </h4>
+      <hr />
+      <div
+        className="mt-4 btn-toolbar"
+        role="toolbar"
+      >
+        <button
+          className="mr-2 uppercase btn btn-primary btn-lg"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          hire-me
+        </button>
+        <a
+          download={true}
+          href="CV_ingles.pdf"
+        >
+          <button
+            className="uppercase btn btn-outline-primary btn-lg"
+            disabled={false}
+            type="submit"
+          >
+            get-cv
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      className="col-sm-12 col-md mb-4 row justify-content-center align-items-center"
+    >
+      <img
+        alt="me"
+        src="programmer.png"
+        width="60%"
+      />
+    </div>
+  </section>
+</div>
+`;

@@ -1,14 +1,14 @@
 [
-	{
-		"id": 1,
-		"name": "Flexbox layout",
-		"description": "A simple CSS flexbox layout, it brings total control of flex for develpers.",
-		"web": "https://cabaag.github.io/flexboxlayout/"
-	},
-	{
-		"id": 2,
-		"name": "Ionic preview",
-		"description": "Preview your ionic apps in the atom text editor",
-		"web": "https://github.com/cabaag/ionic-preview"
-	}
+   {
+      "id": 1,
+      "name": "Flexbox layout",
+      "description": "A simple CSS flexbox layout, it brings total control of flex for develpers.",
+      "web": "https://cabaag.github.io/flexboxlayout/"
+   },
+   {
+      "id": 2,
+      "name": "Ionic preview",
+      "description": "Preview your ionic apps in the atom text editor",
+      "web": "https://github.com/cabaag/ionic-preview"
+   }
 ]
