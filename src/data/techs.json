@@ -25,7 +25,7 @@
       "website": "https://laravel.com/"
    },
    {
-      "name": "ExpressJS",
+      "name": "Express Js",
       "icon": "express",
       "website": "https://expressjs.com"
    },
@@ -83,5 +83,55 @@
       "name": "Material UI",
       "icon": "material-ui",
       "website": "https://material-ui.com/"
+   },
+   {
+      "name": "Vue",
+      "icon": "vue",
+      "website": "https://vuejs.org/"
+   },
+   {
+      "name": "Jest",
+      "icon": "jest",
+      "website": "https://jestjs.io/"
+   },
+   {
+      "name": "Socket IO",
+      "icon": "socket-io",
+      "website": "https://socket.io/"
+   },
+   {
+      "name": "Webpack",
+      "icon": "webpack",
+      "website": "https://webpack.js.org/"
+   },
+   {
+      "name": "Sass",
+      "icon": "sass",
+      "website": "https://sass-lang.com/"
+   },
+   {
+      "name": "Javascript",
+      "icon": "javascript",
+      "website": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+   },
+   {
+      "name": "Typescript",
+      "icon": "typescript",
+      "website": "https://www.typescriptlang.org/"
+   },
+   {
+      "name": "jQuery",
+      "icon": "jquery",
+      "website": "https://jquery.com/"
+   },
+   {
+      "name": "Bootstrap",
+      "icon": "bootstrap",
+      "website": "https://getbootstrap.com/"
+   },
+   {
+      "name": "MongoDB",
+      "icon": "mongodb",
+      "website": "https://www.mongodb.com/es"
    }
 ]

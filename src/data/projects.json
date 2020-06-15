@@ -10,5 +10,11 @@
       "name": "Ionic preview",
       "description": "Preview your ionic apps in the atom text editor",
       "web": "https://github.com/cabaag/ionic-preview"
+   },
+   {
+      "id": 3,
+      "name": "Gruvel",
+      "description": "Platform for agencies to share their packs to travelers",
+      "web": "https://gruvel.com"
    }
 ]

@@ -4,19 +4,21 @@ import { Card } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Element } from 'react-scroll';
 import techsData from '../../data/techs.json';
-import worksData from '../../data/works.json';
+import jobsData from '../../data/jobs.json';
 import './Experience.scss';
 
 const techsImg = {
    android: require('../../assets/techs/android.svg'),
    angular: require('../../assets/techs/angular.svg'),
    apple: require('../../assets/techs/apple.svg'),
+   bootstrap: require('../../assets/techs/bootstrap.svg'),
    express: require('../../assets/techs/express.png'),
    facebook: require('../../assets/techs/facebook.svg'),
    firebase: require('../../assets/techs/firebase.svg'),
    googleMaps: require('../../assets/techs/googleMaps.svg'),
    ionic: require('../../assets/techs/ionic.svg'),
    javascript: require('../../assets/techs/javascript.svg'),
+   jest: require('../../assets/techs/jest.png'),
    jquery: require('../../assets/techs/jquery.svg'),
    laravel: require('../../assets/techs/laravel.svg'),
    'material-ui': require('../../assets/techs/material-ui.svg'),
@@ -31,17 +33,18 @@ const techsImg = {
    reactNative: require('../../assets/techs/reactNative.svg'),
    reactivex: require('../../assets/techs/reactivex.svg'),
    sass: require('../../assets/techs/sass.svg'),
+   'socket-io': require('../../assets/techs/socket-io.svg'),
    typescript: require('../../assets/techs/typescript.svg'),
    vue: require('../../assets/techs/vue.svg'),
    webpack: require('../../assets/techs/webpack.svg'),
 };
 
 const techs = techsData;
-let works = worksData;
-works = works.map((work) => {
+let jobs = jobsData;
+jobs = jobs.map((job) => {
    const t = [];
-   work.techs.forEach((tech) => t.push(techs.find((te) => te.name === tech)));
-   return { ...work, techs: t };
+   job.techs.forEach((tech) => t.push(techs.find((te) => te.name === tech)));
+   return { ...job, techs: t };
 });
 
 export default function Experience({ odd }) {
@@ -65,7 +68,7 @@ export default function Experience({ odd }) {
             </div>
             <div className="row justify-content-center">
                <div className="col-sm-12 col-md-10 col-lg-8">
-                  {works.map((work) => (
+                  {jobs.map((work) => (
                      <Card border="primary" className="text-center my-4" key={work.id}>
                         <Card.Header>
                            <Card.Title className="m-0">{work.company}</Card.Title>
@@ -73,14 +76,16 @@ export default function Experience({ odd }) {
                         <Card.Body>
                            <Card.Text>
                               <b>{work.position}</b>
-                              <p>{work.description[i18n.language]}</p>
+                           </Card.Text>
+                           <Card.Text>{work.description[i18n.language]}</Card.Text>
+                           <Card.Text>
                               <b> {t('techs')} </b>
                            </Card.Text>
                            <div className="row justify-content-center">
                               {work.techs.map((tech) =>
                                  tech ? (
                                     <a
-                                       className="mr-4 tech"
+                                       className="mr-4 tech mb-4"
                                        href={tech.website}
                                        key={tech.name}
                                        rel="noopener noreferrer"
@@ -92,7 +97,7 @@ export default function Experience({ odd }) {
                                        target="_blank"
                                     >
                                        {tech.icon ? (
-                                          <img alt={tech.name} src={techsImg[tech.icon]} width={30} />
+                                          <img alt={tech.name} height="100%" src={techsImg[tech.icon]} width={30} />
                                        ) : (
                                           <span>{tech.name[0]}</span>
                                        )}

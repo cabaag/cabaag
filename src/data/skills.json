@@ -8,6 +8,10 @@
       "percentage": 95
    },
    {
+      "name": "Typescript",
+      "percentage": 75
+   },
+   {
       "name": "Python",
       "percentage": 40
    },
@@ -24,12 +28,16 @@
       "percentage": 93
    },
    {
-      "name": "ReactJS",
+      "name": "React.js",
       "percentage": 85
    },
    {
-      "name": "ExpressJS",
+      "name": "Express.js",
       "percentage": 85
+   },
+   {
+      "name": "Vue.js",
+      "percentage": 45
    },
    {
       "name": "Ionic",
