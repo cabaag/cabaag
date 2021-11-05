@@ -5,19 +5,19 @@ import en from './locales/en.json';
 import es from './locales/es.json';
 
 i18n
-	.use(LanguageDetector)
-	.use(initReactI18next)
-	.init({
-		fallbackLng: 'en',
-		lng: 'en',
-		debug: true,
-		resources: {
-			en: { translation: en },
-			es: { translation: es },
-		},
-		interpolation: {
-			escapeValue: false,
-		},
-	});
+   .use(LanguageDetector)
+   .use(initReactI18next)
+   .init({
+      fallbackLng: 'en',
+      lng: 'en',
+      debug: true,
+      resources: {
+         en: { translation: en },
+         es: { translation: es },
+      },
+      interpolation: {
+         escapeValue: false,
+      },
+   });
 
 export default i18n;

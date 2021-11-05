@@ -1,87 +1,137 @@
 [
-	{
-		"name": "Angular",
-		"icon": "angular.svg",
-		"website": "https://angular.io"
-	},
-	{
-		"name": "React",
-		"icon": "react.svg",
-		"website": "https://reactjs.org/"
-	},
-	{
-		"name": "React Native",
-		"icon": "react.svg",
-		"website": "https://facebook.github.io/react-native/"
-	},
-	{
-		"name": "Ionic",
-		"icon": "ionic.svg",
-		"website": "https://ionicframework.com/"
-	},
-	{
-		"name": "Laravel",
-		"icon": "laravel.svg",
-		"website": "https://laravel.com/"
-	},
-	{
-		"name": "ExpressJS",
-		"icon": "express.png",
-		"website": "https://expressjs.com"
-	},
-	{
-		"name": "NodeJS",
-		"icon": "nodejs.svg",
-		"website": "https://nodejs.org"
-	},
-	{
-		"name": "PassportJS",
-		"icon": "passport.svg",
-		"website": "http://www.passportjs.org"
-	},
-	{
-		"name": "PayPal",
-		"icon": "paypal.svg",
-		"website": "https://www.paypal.com/"
-	},
-	{
-		"name": "Google Maps",
-		"icon": "googleMaps.svg",
-		"website": "https://developers.google.com/maps"
-	},
-	{
-		"name": "Firebase",
-		"icon": "firebase.svg",
-		"website": "https://firebase.google.com/"
-	},
-	{
-		"name": "Android",
-		"icon": "android.svg",
-		"website": "https://www.android.com/"
-	},
-	{
-		"name": "iOS",
-		"icon": "apple.svg",
-		"website": "https://developer.apple.com/"
-	},
-	{
-		"name": "Prestashop",
-		"icon": "prestashop.svg",
-		"website": "https://www.prestashop.com/"
-	},
-	{
-		"name": "Axios",
-		"icon": null,
-		"website": "https://github.com/axios/axios"
-	},
-	{
-		"name": "Redux",
-		"icon": "redux.svg",
-		"website": "https://redux.js.org/"
-	},
-	{
-		"name": "Material UI",
-		"icon": "material-ui.svg",
-		"website": "https://material-ui.com/"
-	}
+   {
+      "name": "Angular",
+      "icon": "angular",
+      "website": "https://angular.io"
+   },
+   {
+      "name": "React",
+      "icon": "react",
+      "website": "https://reactjs.org/"
+   },
+   {
+      "name": "React Native",
+      "icon": "react",
+      "website": "https://facebook.github.io/react-native/"
+   },
+   {
+      "name": "Ionic",
+      "icon": "ionic",
+      "website": "https://ionicframework.com/"
+   },
+   {
+      "name": "Laravel",
+      "icon": "laravel",
+      "website": "https://laravel.com/"
+   },
+   {
+      "name": "Express Js",
+      "icon": "express",
+      "website": "https://expressjs.com"
+   },
+   {
+      "name": "NodeJS",
+      "icon": "nodejs",
+      "website": "https://nodejs.org"
+   },
+   {
+      "name": "PassportJS",
+      "icon": "passport",
+      "website": "http://www.passportjs.org"
+   },
+   {
+      "name": "PayPal",
+      "icon": "paypal",
+      "website": "https://www.paypal.com/"
+   },
+   {
+      "name": "Google Maps",
+      "icon": "googleMaps",
+      "website": "https://developers.google.com/maps"
+   },
+   {
+      "name": "Firebase",
+      "icon": "firebase",
+      "website": "https://firebase.google.com/"
+   },
+   {
+      "name": "Android",
+      "icon": "android",
+      "website": "https://www.android.com/"
+   },
+   {
+      "name": "iOS",
+      "icon": "apple",
+      "website": "https://developer.apple.com/"
+   },
+   {
+      "name": "Prestashop",
+      "icon": "prestashop",
+      "website": "https://www.prestashop.com/"
+   },
+   {
+      "name": "Axios",
+      "icon": null,
+      "website": "https://github.com/axios/axios"
+   },
+   {
+      "name": "Redux",
+      "icon": "redux",
+      "website": "https://redux.js.org/"
+   },
+   {
+      "name": "Material UI",
+      "icon": "material-ui",
+      "website": "https://material-ui.com/"
+   },
+   {
+      "name": "Vue",
+      "icon": "vue",
+      "website": "https://vuejs.org/"
+   },
+   {
+      "name": "Jest",
+      "icon": "jest",
+      "website": "https://jestjs.io/"
+   },
+   {
+      "name": "Socket IO",
+      "icon": "socket-io",
+      "website": "https://socket.io/"
+   },
+   {
+      "name": "Webpack",
+      "icon": "webpack",
+      "website": "https://webpack.js.org/"
+   },
+   {
+      "name": "Sass",
+      "icon": "sass",
+      "website": "https://sass-lang.com/"
+   },
+   {
+      "name": "Javascript",
+      "icon": "javascript",
+      "website": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+   },
+   {
+      "name": "Typescript",
+      "icon": "typescript",
+      "website": "https://www.typescriptlang.org/"
+   },
+   {
+      "name": "jQuery",
+      "icon": "jquery",
+      "website": "https://jquery.com/"
+   },
+   {
+      "name": "Bootstrap",
+      "icon": "bootstrap",
+      "website": "https://getbootstrap.com/"
+   },
+   {
+      "name": "MongoDB",
+      "icon": "mongodb",
+      "website": "https://www.mongodb.com/es"
+   }
 ]

@@ -1,9 +1,17 @@
+import { shallow } from 'enzyme';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './App';
+import './setupTest';
+
+jest.mock('react-i18next', () => ({
+   useTranslation: () => ({ t: key => key }),
+   withTranslation: Component => {
+      // eslint-disable-next-line no-param-reassign
+      Component.defaultProps = { ...Component.defaultProps, t: () => '' };
+      return Component;
+   },
+}));
 
 it('renders without crashing', () => {
-	const div = document.createElement('div');
-	ReactDOM.render(<App />, div);
-	ReactDOM.unmountComponentAtNode(div);
+   shallow(<App />);
 });
