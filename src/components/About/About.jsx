@@ -23,8 +23,11 @@ export default function About({ odd }) {
                </div>
             </div>
             <div className="row align-content-center align-items-center">
-               <div className="col-sm-12 col-md-6 row justify-content-center">
-                  <img alt="learnign" height="350px" src={about} />
+               <div className="col-sm-12 col-md-6 row justify-content-center w-autoi">
+                  <img alt="learning"
+                     className="w-auto"
+                     height="350px"
+                     src={about} />
                </div>
                <div
                   className="col-sm-12 col-md-6"

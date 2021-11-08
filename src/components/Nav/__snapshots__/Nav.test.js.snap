@@ -9,10 +9,10 @@ exports[`renders without crashing 1`] = `
   >
     <a
       className="nav-link"
-      href="#"
       onClick={[Function]}
       onKeyDown={[Function]}
       role="button"
+      tabIndex={0}
     >
       CARLOS
     </a>
@@ -28,45 +28,45 @@ exports[`renders without crashing 1`] = `
     >
       <a
         className="uppercase nav-link"
-        data-rb-event-key={null}
-        href="#"
+        data-rr-ui-event-key={null}
         id="about"
         onClick={[Function]}
         onKeyDown={[Function]}
         role="button"
+        tabIndex={0}
       >
         about
       </a>
       <a
         className="uppercase nav-link"
-        data-rb-event-key={null}
-        href="#"
+        data-rr-ui-event-key={null}
         id="experience"
         onClick={[Function]}
         onKeyDown={[Function]}
         role="button"
+        tabIndex={0}
       >
         experience
       </a>
       <a
         className="uppercase nav-link"
-        data-rb-event-key={null}
-        href="#"
+        data-rr-ui-event-key={null}
         id="skills"
         onClick={[Function]}
         onKeyDown={[Function]}
         role="button"
+        tabIndex={0}
       >
         skills
       </a>
       <a
         className="uppercase nav-link"
-        data-rb-event-key={null}
-        href="#"
+        data-rr-ui-event-key={null}
         id="contact"
         onClick={[Function]}
         onKeyDown={[Function]}
         role="button"
+        tabIndex={0}
       >
         contact
       </a>
@@ -79,12 +79,11 @@ exports[`renders without crashing 1`] = `
       className="justify-content-end row"
     >
       <div
+        alignRight={true}
         className="mr-2 dropdown"
-        onKeyDown={[Function]}
       >
         <button
           aria-expanded={false}
-          aria-haspopup={true}
           className="dropdown-toggle btn btn-primary"
           disabled={false}
           id="dropdown-lang"
@@ -96,9 +95,38 @@ exports[`renders without crashing 1`] = `
       </div>
       <a
         className="mr-2 btn btn-outline-dark"
+        href="mailto:caba9313@gmail.com"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+        target="_blank"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-envelope fa-w-16 "
+          data-icon="envelope"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </a>
+      <a
+        className="mr-2 btn btn-outline-dark"
         href="https://github.com/cabaag"
         onClick={[Function]}
         onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
         target="_blank"
       >
         <svg
@@ -124,6 +152,8 @@ exports[`renders without crashing 1`] = `
         href="https://www.linkedin.com/in/cabaag/"
         onClick={[Function]}
         onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
         target="_blank"
       >
         <svg

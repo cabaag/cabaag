@@ -30,7 +30,7 @@ export default function Projects({ odd }) {
                      <div className="col-sm-4 mb-3" key={project.name}>
                         <Card border="primary">
                            <Card.Header>
-                              <Row className="justify-content-between align-items-center" noGutters>
+                              <Row className="justify-content-between align-items-center">
                                  <Card.Title style={{ margin: 0 }}>{project.name}</Card.Title>
                                  <Button className="mr-2" href={project.web} target="_blank" variant="outline-dark">
                                     <FontAwesomeIcon icon={faGlobe} />

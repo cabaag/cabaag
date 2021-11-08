@@ -27,7 +27,10 @@ export default function Contact({ odd }) {
                <div className="row">
                   <div className="col-sm-12 col-md-6 row justify-content-center align-content-center flex-column">
                      {/* <p>If you have a great project, I&apos;ll make it better</p> */}
-                     <img alt="envelop" src={envelop} width="60%" />
+                     <img alt="envelop"
+                        className="w-auto"
+                        src={envelop}
+                        width="60%" />
                   </div>
                   <div className="col-sm-12 col-md-6">
                      <Form>

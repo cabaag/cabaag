@@ -29,18 +29,27 @@ export default function Main() {
                <h4 className="uppercase"> {t('titles')} </h4>
                <hr />
                <ButtonToolbar className="mt-4">
-                  <Button className="mr-2 uppercase" onClick={() => goTo('contact')} size="lg" variant="primary">
+                  <Button className="mr-2 uppercase"
+                     onClick={() => goTo('contact')}
+                     size="lg"
+                     variant="primary">
                      {t('hire-me')}
                   </Button>
                   <a download href={i18next.language === 'es' ? CVSpanish : CVEnglish}>
-                     <Button className="uppercase" size="lg" type="submit" variant="outline-primary">
+                     <Button className="uppercase"
+                        size="lg"
+                        type="submit"
+                        variant="outline-primary">
                         {t('get-cv')}
                      </Button>
                   </a>
                </ButtonToolbar>
             </div>
             <div className="col-sm-12 col-md mb-4 row justify-content-center align-items-center">
-               <img alt="me" src={programmer} width="60%" />
+               <img alt="me"
+                  className="w-auto"
+                  src={programmer}
+                  width="60%" />
             </div>
          </section>
       </Element>

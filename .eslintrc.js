@@ -4,7 +4,7 @@ module.exports = {
       es6: true,
       jest: true,
    },
-   extends: ['airbnb', 'prettier', 'prettier/react'],
+   extends: ['airbnb', 'prettier'],
    globals: {
       Atomics: 'readonly',
       SharedArrayBuffer: 'readonly',
@@ -20,6 +20,7 @@ module.exports = {
    parser: 'babel-eslint',
    rules: {
       'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+      "react/jsx-max-props-per-line": [1, { "maximum": { "single": 3, "multi": 1 } }],
       'react/prop-types': 0,
       'react/jsx-sort-props': [1, { ignoreCase: true }],
       'no-underscore-dangle': 0,

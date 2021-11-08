@@ -8,35 +8,35 @@ import jobsData from '../../data/jobs.json';
 import './Experience.scss';
 
 const techsImg = {
-   android: require('../../assets/techs/android.svg'),
-   angular: require('../../assets/techs/angular.svg'),
-   apple: require('../../assets/techs/apple.svg'),
-   bootstrap: require('../../assets/techs/bootstrap.svg'),
-   express: require('../../assets/techs/express.png'),
-   facebook: require('../../assets/techs/facebook.svg'),
-   firebase: require('../../assets/techs/firebase.svg'),
-   googleMaps: require('../../assets/techs/googleMaps.svg'),
-   ionic: require('../../assets/techs/ionic.svg'),
-   javascript: require('../../assets/techs/javascript.svg'),
-   jest: require('../../assets/techs/jest.png'),
-   jquery: require('../../assets/techs/jquery.svg'),
-   laravel: require('../../assets/techs/laravel.svg'),
-   'material-ui': require('../../assets/techs/material-ui.svg'),
-   mongodb: require('../../assets/techs/mongodb.svg'),
-   nodejs: require('../../assets/techs/nodejs.svg'),
-   passport: require('../../assets/techs/passport.svg'),
-   paypal: require('../../assets/techs/paypal.svg'),
-   prestashop: require('../../assets/techs/prestashop.svg'),
-   python: require('../../assets/techs/python.svg'),
-   react: require('../../assets/techs/react.svg'),
-   redux: require('../../assets/techs/redux.svg'),
-   reactNative: require('../../assets/techs/reactNative.svg'),
-   reactivex: require('../../assets/techs/reactivex.svg'),
-   sass: require('../../assets/techs/sass.svg'),
-   'socket-io': require('../../assets/techs/socket-io.svg'),
-   typescript: require('../../assets/techs/typescript.svg'),
-   vue: require('../../assets/techs/vue.svg'),
-   webpack: require('../../assets/techs/webpack.svg'),
+   android: require('../../assets/techs/android.svg').default,
+   angular: require('../../assets/techs/angular.svg').default,
+   apple: require('../../assets/techs/apple.svg').default,
+   bootstrap: require('../../assets/techs/bootstrap.svg').default,
+   express: require('../../assets/techs/express.png').default,
+   facebook: require('../../assets/techs/facebook.svg').default,
+   firebase: require('../../assets/techs/firebase.svg').default,
+   googleMaps: require('../../assets/techs/googleMaps.svg').default,
+   ionic: require('../../assets/techs/ionic.svg').default,
+   javascript: require('../../assets/techs/javascript.svg').default,
+   jest: require('../../assets/techs/jest.png').default,
+   jquery: require('../../assets/techs/jquery.svg').default,
+   laravel: require('../../assets/techs/laravel.svg').default,
+   'material-ui': require('../../assets/techs/material-ui.svg').default,
+   mongodb: require('../../assets/techs/mongodb.svg').default,
+   nodejs: require('../../assets/techs/nodejs.svg').default,
+   passport: require('../../assets/techs/passport.svg').default,
+   paypal: require('../../assets/techs/paypal.svg').default,
+   prestashop: require('../../assets/techs/prestashop.svg').default,
+   python: require('../../assets/techs/python.svg').default,
+   react: require('../../assets/techs/react.svg').default,
+   redux: require('../../assets/techs/redux.svg').default,
+   reactNative: require('../../assets/techs/reactNative.svg').default,
+   reactivex: require('../../assets/techs/reactivex.svg').default,
+   sass: require('../../assets/techs/sass.svg').default,
+   'socket-io': require('../../assets/techs/socket-io.svg').default,
+   typescript: require('../../assets/techs/typescript.svg').default,
+   vue: require('../../assets/techs/vue.svg').default,
+   webpack: require('../../assets/techs/webpack.svg').default,
 };
 
 const techs = techsData;
@@ -85,7 +85,7 @@ export default function Experience({ odd }) {
                               {work.techs.map(tech =>
                                  tech ? (
                                     <a
-                                       className="mr-4 tech mb-4"
+                                       className="mx-1 tech mb-4"
                                        href={tech.website}
                                        key={tech.name}
                                        rel="noopener noreferrer"

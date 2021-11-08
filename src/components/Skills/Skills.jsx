@@ -27,7 +27,7 @@ export default function Skills({ odd }) {
                </div>
                <div className="row">
                   <div className="col-sm-12 col-md-7">
-                     {skills.map(skill => (
+                     {skills.map((skill) => (
                         <div className="row mb-3" key={skill.name}>
                            <div className="col-12">
                               <OverlayTrigger
@@ -54,7 +54,10 @@ export default function Skills({ odd }) {
                   </div>
                   <div className="col-sm-12 col-md-5 row align-content-center">
                      <div className="row justify-content-center align-items-center">
-                        <img alt="learnign" src={learning} width="80%" />
+                        <img alt="learnign"
+                           className="w-auto"
+                           src={learning}
+                           width="80%" />
                      </div>
                   </div>
                </div>
